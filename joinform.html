@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="joinform.css">
+</head>
+<body>
+<h1>Joining Form</h1>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="text">Name:</label>
+        <input type="text" name="text" id="text" placeholder="Enter your name" required>
+        <label for="text1">Email:</label>
+        <input type="text" name="text" id="text1" placeholder="Enter your email id" required>
+        <label for="text2">Phone:</label> 
+        <input type="tel" name="text2" id="text2" placeholder="Enter your Phone Number" required>
+        <label for="text3">Date of Birth:</label>
+        <input type="date" name="text" id="text3" required >
+        <br><br>
+        <span>Gender</span>
+        <input type="radio" name="text4" id="text4">
+        <label for="text4">Male</label>
+        <input type="radio" name="text4" id="text5">
+
+        <label for="text5">Female</label>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="">--Please choose an option--</option>
+            <option value="usa">usa</option>
+        <option value="Brazil">Brazil</option>
+        <option value="India">India</option><option value="afg">AFG</option><option value="Aus">AUS</option>
+   </select>
+   
+    </fieldset>
+    <br>
+    <fieldset><legend>
+        <label for="str">Address Street</label>
+        <input type="text" name="str" id="str" placeholder="Enter your address" required>
+        <label for="st">City</label>
+        <input type="text" name="st" id="st" placeholder="Enter your City" required>
+        <label for="stre">State</label>
+        <input type="text" name="stre" id="stre" placeholder="Enter your State" required>
+        <label for="s">Zip Code</label>
+        <input type="text" name="s" id="s" placeholder="Enter your Zip cpde" Required>
+
+        </legend>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments">Comments:</label>
+        <textarea name="comt" id="comments" cols="50" rows="3" placeholder="Some suggestions for our website"></textarea>
+        <label for="radio">I agree to the terms of coditions</label>
+    <input type="radio" name="radio" id="radio" required>
+    </fieldset>
+    <button>Submmit</button>
+</form>
+</body>
+</html>
